@@ -1,0 +1,271 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+}
+
+.login-body{
+    background:#f4f8fb;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-contenedor{
+    width:980px;
+    height:520px;
+    display:flex;
+    background:white;
+    box-shadow:0 0 12px rgba(0,0,0,0.12);
+}
+
+.login-info{
+    width:42%;
+    background:linear-gradient(#073763,#0b70b7);
+    color:white;
+    padding:35px;
+}
+
+.login-info h1{
+    font-size:34px;
+    margin-bottom:0;
+}
+
+.login-info h3{
+    margin-top:5px;
+    font-size:15px;
+    letter-spacing:1px;
+}
+
+.login-info h2{
+    margin-top:45px;
+    font-size:26px;
+}
+
+.login-info p{
+    font-size:15px;
+    line-height:1.6;
+    margin-top:15px;
+}
+
+.bus-dibujo{
+    font-size:90px;
+    margin-top:35px;
+}
+
+.login-formulario{
+    width:58%;
+    padding:60px 55px;
+}
+
+.login-formulario h2{
+    color:#073763;
+    text-align:center;
+    font-size:30px;
+}
+
+.login-formulario p{
+    text-align:center;
+    color:#6b7280;
+    margin-bottom:25px;
+}
+
+.login-formulario label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:7px;
+    font-weight:bold;
+    color:#0b1f3a;
+}
+
+.login-formulario input{
+    width:100%;
+    padding:14px;
+    border:1px solid #d0d7de;
+    border-radius:10px;
+    font-size:14px;
+}
+
+.login-formulario button{
+    width:100%;
+    margin-top:25px;
+    padding:14px;
+    background:#073763;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.login-formulario button:hover{
+    background:#0b5cad;
+}
+
+.recuperar{
+    display:block;
+    text-align:center;
+    margin-top:18px;
+    color:#073763;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.pie-login{
+    text-align:center;
+    margin-top:35px;
+    color:#8a94a6;
+    font-size:12px;
+}
+
+.contenedor{
+    display:flex;
+    min-height:100vh;
+    background:#f4f6f9;
+}
+
+.menu{
+    width:260px;
+    background:#073763;
+    color:white;
+    padding:25px 20px;
+}
+
+.menu h2{
+    margin:0;
+    font-size:26px;
+}
+
+.menu p{
+    margin-top:5px;
+    margin-bottom:30px;
+    font-size:13px;
+    font-weight:bold;
+}
+
+.menu a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:13px;
+    margin-bottom:8px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.menu a:hover,
+.menu .activo{
+    background:#0b5cad;
+}
+
+.contenido{
+    flex:1;
+    padding:25px;
+}
+
+.barra-superior{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.barra-superior h1{
+    color:#073763;
+}
+
+.tarjetas{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    margin-top:25px;
+}
+
+.tarjeta{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    border-left:6px solid #0b5cad;
+}
+
+.tarjeta h3{
+    color:#073763;
+}
+
+.tarjeta h2{
+    font-size:38px;
+    margin:10px 0;
+    color:#0b1f3a;
+}
+
+.tarjeta p{
+    color:#666;
+}
+
+.panel{
+    background:white;
+    margin-top:25px;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.panel h2{
+    color:#073763;
+}
+
+.formulario{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    max-width:500px;
+}
+
+.formulario label{
+    font-weight:bold;
+    color:#073763;
+}
+
+.formulario input,
+.formulario select{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.formulario button{
+    margin-top:10px;
+    padding:12px;
+    background:#073763;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.formulario button:hover{
+    background:#0b5cad;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+th{
+    background:#073763;
+    color:white;
+    padding:12px;
+}
+
+td{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+}
